@@ -22,10 +22,30 @@
 
     </head>
     <body>
+        <script>
+            function play() {
+              const audio = document.getElementById("audio");
+              audio.play();
+            }
+            function pause() {
+              const audio = document.getElementById("audio");
+              audio.pause();
+            }
+        </script>
+
+        <div class="controls">
+            <input type="button" class="btn" value="PLAY" onclick="play()"> 
+            <input type="button" class="btn pause" value="STOP" onclick="pause()">
+            <audio id="audio" src="waves.ogg"></audio>
+        </div>
+
+
+        <!--  
         <audio controls>
             <source src="waves.ogg">
             <source src="waves.mp3">
             Your browser does not support audio tags.
         </audio>
+        -->
     </body>
 </html>

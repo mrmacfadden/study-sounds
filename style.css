@@ -1,0 +1,27 @@
+html,body{
+    height:100%;
+}
+body{
+    box-sizing: border-box;
+}
+.controls{
+    bottom:0;
+    width:100%;
+}
+.btn{
+    padding:30px;
+    border:0;
+    background:#000;
+    color:#FFF;
+    font-size:36px;
+    box-sizing: border-box;
+    width:100%;
+    cursor:pointer;
+}
+
+.btn{
+}
+
+.pause{
+    margin-top:10px;
+}
